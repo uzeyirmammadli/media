@@ -1,0 +1,83 @@
+
+.touch{
+    margin:0 auto;
+    width: 600px;
+    text-align: center;
+
+}
+h2{
+    font-size: 2em;
+    margin: auto;
+    padding: 20px;
+    line-height: 2em;
+    font-weight: bold;
+
+
+
+}
+.placeholder{
+    margin-top: 10px;
+    width: 600px;
+    height: 200px;
+    
+    
+}
+.name,
+.mail,
+.subject{
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    width: 100%; 
+    background: #eeeeee;
+    border: none;
+    
+}
+.name:active,
+.name:hover,
+.name:focus{
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+.mail:active,
+.mail:hover,
+.mail:focus{
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+.subject:active,
+.subject:hover,
+.subject:focus{
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+.message{
+    margin-top: 20px;
+    text-align: center;
+    height: 120px;  
+    width: 100%;
+    background:  #eeeeee;
+    border: none;
+    
+}
+.message:active,
+.message:hover,
+.message:focus{
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background:orange;
+    color: white;
+    height: 40px;
+    width: 175px;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background: blue;
+    transition: all 1s;
+}
